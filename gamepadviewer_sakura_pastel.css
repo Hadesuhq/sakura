@@ -9,54 +9,20 @@ body {
 .controller.edit {
     width: 806px !important;
     height: 598px !important;
-    background: url("https://i.imgur.com/xnT1rSb.png") center center / 806px 598px no-repeat !important;
-}
-
-/* Reset complet */
-.ds4 * {
-    transform: none !important;
-}
-
-/* Boutons droite */
-.ds4 .button-1,
-.ds4 .cross {
-    transform: translate(0px, -35px) !important;
-}
-
-.ds4 .button-2,
-.ds4 .circle {
-    transform: translate(0px, -35px) !important;
-}
-
-.ds4 .button-3,
-.ds4 .square {
-    transform: translate(28px, -35px) !important;
-}
-
-.ds4 .button-4,
-.ds4 .triangle {
-    transform: translate(0px, -42px) !important;
-}
-
-/* D-Pad */
-.ds4 .face,
-.ds4 .dpad {
-    transform: translate(0px, -28px) !important;
-}
-
-/* Sticks */
-.ds4 .sticks,
-.ds4 .stick {
-    transform: translate(0px, -18px) !important;
-}
-
-/* Gâchettes */
-.ds4 .triggers,
-.ds4 .trigger {
-    transform: translate(0px, 0px) !important;
+    background-image: url("https://i.imgur.com/R5amHem.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 806px 598px !important;
 }
 
 .ds4.disconnected,
 .ds4.white.disconnected {
-    background: url("https://i.imgur.com/xnT1rSb.png") center center / 806px 598px no-repeat !important;
-}z
+    background-image: url("https://i.imgur.com/R5amHem.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 806px 598px !important;
+}
+
+.controller {
+    background-color: transparent !important;
+}
