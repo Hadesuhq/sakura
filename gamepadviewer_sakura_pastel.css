@@ -1,35 +1,24 @@
-/* Gamepad Viewer - Skin Sakura rose pastel
-   Image directe : https://i.imgur.com/xnT1rSb.png
-   À héberger publiquement en .css, puis coller l'URL dans Custom CSS URL / Edit CSS URL.
-*/
-
 html,
 body {
   background: transparent !important;
 }
 
-/* Skin principal PS4 / DualShock 4 */
 .controller.ds4,
 .controller.ds4.white,
 .edit .controller.ds4,
 .controller.edit {
   width: 806px !important;
   height: 598px !important;
-  background-image: url("https://i.imgur.com/xnT1rSb.png") !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  background-size: 100% 100% !important;
+  background: url("https://i.imgur.com/xnT1rSb.png") center center / 100% 100% no-repeat !important;
 }
 
-/* Même skin quand la manette est déconnectée */
+/* Cache tous les éléments Gamepad Viewer qui se superposent */
+.controller.ds4 > div,
+.controller.ds4.white > div {
+  display: none !important;
+}
+
 .ds4.disconnected,
 .ds4.white.disconnected {
-  background-image: url("https://i.imgur.com/xnT1rSb.png") !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  background-size: 100% 100% !important;
-}
-
-.ds4.disconnected div {
-  display: none;
+  background: url("https://i.imgur.com/xnT1rSb.png") center center / 100% 100% no-repeat !important;
 }
