@@ -1,45 +1,28 @@
-/* Sakura Pastel - Gamepad Viewer */
-
 html,
 body {
     background: transparent !important;
 }
 
-/* Manette DS4 */
 .controller.ds4,
 .controller.ds4.white,
 .edit .controller.ds4,
 .controller.edit {
     width: 806px !important;
-    height: 584px !important;
-
+    height: 598px !important;
     background-image: url("https://i.imgur.com/xnT1rSb.png") !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
-    background-size: contain !important;
+    background-size: 100% 100% !important;
 }
 
-/* État déconnecté */
 .ds4.disconnected,
 .ds4.white.disconnected {
     background-image: url("https://i.imgur.com/xnT1rSb.png") !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
-    background-size: contain !important;
+    background-size: 100% 100% !important;
 }
 
-/* On garde tous les éléments interactifs */
-.ds4 .button,
-.ds4 .stick,
-.ds4 .trigger,
-.ds4 .bumper,
-.ds4 .face,
-.ds4 .meta,
-.ds4 .arrows {
-    opacity: 1 !important;
-}
-
-/* Transparence du fond Gamepad Viewer */
 .controller {
     background-color: transparent !important;
 }
